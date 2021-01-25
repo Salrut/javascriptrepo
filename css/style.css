@@ -1,0 +1,134 @@
+header, html {
+    height: 100%;
+}
+header {
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+    /* Full height */
+    height: 940px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 200px;
+    height: 0 Auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sectiontwo img{
+    width: 100%;
+    height: 500px;
+}
+
+.sectionthree img{
+    width: 100%;
+    height: auto;
+}
+
+.overlays{
+    opacity: 0.6;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 840px 840px;
+    color: black;
+}
+
+.grid-item1 img{
+    width: 840px;
+    height: 500px;
+    border-top: 50px solid lightgrey;
+    border-left: 30px solid lightgrey;
+}
+.grid-item2 img{
+    width: 840px;
+    height: 500px;
+    border-top: 50px solid lightgrey;
+    border-right: 30px solid lightgrey;
+}
+.grid-item3 img{
+    width: 840px;
+    height: 500px;
+    border-bottom: 50px solid lightgrey;
+    border-left: 30px solid lightgrey;
+}
+.grid-item4 img{
+    width: 840px;
+    height: 500px;
+    border-bottom: 50px solid lightgrey;
+    border-right: 30px solid lightgrey;
+}
+
+.sectionfour {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.sectionfour img{
+    width: 500px;
+    height: auto;
+}
+
+.sectionfour p{
+    width: 500px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.sectionfive p {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.sectionfive {
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: lightgrey;
+}
+
+
+.bild_beschriftung {
+    position: relative;
+}
+.bild_beschriftung img {
+    display: block;
+}
+.bild_beschriftung span {
+    position: absolute;
+    bottom: 0;
+    width: 840px;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    height: 4.5em;
+    line-height: 2.5em;
+}
+.bild_beschriftung1 {
+    position: relative;
+}
+.bild_beschriftung1 img {
+    display: block;
+}
+.bild_beschriftung1 span {
+    position: absolute;
+    bottom: 0;
+    width: 840px;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    height: 5em;
+    line-height: 2.5em;
+}
+
+

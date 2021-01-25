@@ -1,0 +1,37 @@
+header, html {
+    height: 100%;
+    width: 1680;
+}
+header {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo{
+    width: 200px;
+    height: 0 Auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sectionthree img{
+    width: 100%;
+    height: auto;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-rows: 560px 560px 560px;
+    grid-template-columns: 560px 560px 560px;
+}
+
+.grid-item1 img{
+    width: 560px;
+    height: 560px;
+}
+
+

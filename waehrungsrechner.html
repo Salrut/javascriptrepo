@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Waehrungumrechner</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- MDB icon -->
+        <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="css/stylewaehrung.css">
+    </head>
+<body>
+<header>
+<h1>Währungsrechner</h1>
+</header>
+<main>
+    <div class="containerwaeh">
+        <div class="betrag">
+            <select id="from_currency">
+            </select>
+            <input type="number" id="from_ammount" placeholder="0" value=1 />
+        </div>
+        <div class="umrechnen">
+            <button id="exchange">
+
+                &#8593;&#8595;
+
+            </button>
+            <div class="kurs" id="rate"></div>
+        </div>
+        <div class="betrag">
+            <select id="to_currency">
+            </select>
+            <input type="number" id="to_ammount" placeholder="0" />
+        </div>
+    </div>
+    <script  src="js/scriptwaehrung.js"></script>
+</main>
+
+</body>
+<!-- footer-->
+<footer class="page-footer font-small black">
+    <div class="container">
+        <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="photos.html">Photos</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="illustration.html">Illustrations</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="animation.html">Animations</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="videos.html">Videos</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="waehrungsrechner.html">Währungsrechner</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="objectliterals.html">Object-Literals</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text font-weight-light">
+                    <a href="index.html">Home</a>
+                </h6>
+            </div>
+        </div>
+        <div class="text-center py-3">© 2020 Copyright:
+            <a href=""> Salome Rütsche</a>
+        </div>
+</footer>
+<!-- end footer-->
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Your custom scripts (optional) -->
+<script type="text/javascript"></script>
+</html>
